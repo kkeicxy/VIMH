@@ -93,7 +93,6 @@
             box-shadow: 0 5px 12px rgba(0,0,0,0.12);
         }
 
-        /* Hero Section */
         .hero {
             display: flex;
             align-items: center;
@@ -112,7 +111,7 @@
             transition: transform 0.4s ease;
         }
 
-        /* Gentle zoom animation for logo on hover */
+
         .logo-container:hover {
             transform: scale(1.05);
         }
@@ -139,7 +138,7 @@
             letter-spacing: 0.2px;
         }
 
-        /* Search Bar Section */
+  
         .search-container {
             max-width: 720px;
             margin: 20px auto 70px auto;
@@ -156,7 +155,7 @@
             transition: all 0.3s ease;
         }
 
-        /* Glowing shadow animation when focusing or hovering search box */
+
         .search-box:hover, .search-box:focus-within {
             box-shadow: 0 12px 35px rgba(129, 128, 99, 0.18);
             transform: translateY(-1px);
@@ -201,7 +200,7 @@
             box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         }
 
-        /* Cards Section */
+  
         .cards-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -222,7 +221,7 @@
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
-        /* Smooth lift and shadow expansion animation for the cards on hover */
+
         .card:hover {
             transform: translateY(-6px);
             box-shadow: 0 14px 32px rgba(0, 0, 0, 0.08);
@@ -238,7 +237,7 @@
             transition: transform 0.3s ease;
         }
 
-        /* Subtle scaling of the card image on hover */
+
         .card:hover .card-img {
             transform: scale(1.03);
         }
@@ -273,7 +272,7 @@
             font-weight: 400;
         }
 
-        /* Responsive design for smaller screens */
+
         @media (max-width: 1024px) {
             .cards-grid {
                 grid-template-columns: 1fr;
@@ -298,11 +297,10 @@
         </nav>
     </header>
 
-    <!-- Hero Section with Logo Image Space -->
+
     <section class="hero">
         <div class="logo-container">
-            <!-- REPLACE 'logo.png' with your actual logo file name/path -->
-            <img src="logo.png" alt="Veritas Institute Medical Hospital Logo">
+            <img src="logo.jpg" alt="Veritas Institute Medical Hospital Logo">
         </div>
         <div class="hero-text">
             <h1>VERITAS INSTITUTE<br>MEDICAL HOSPITAL</h1>
@@ -310,7 +308,7 @@
         </div>
     </section>
 
-    <!-- Search Bar Section -->
+
     <div class="search-container">
         <div class="search-box">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
