@@ -1,2 +1,0 @@
-# VIMH
-ITC g4
