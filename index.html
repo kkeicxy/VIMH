@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Veritas Institute Medical Hospital | Expert Care in Batangas</title>
+  <meta name="description" content="Veritas Institute Medical Hospital (VIMH) provides expert, education-driven care in Batangas. Find specialists, book appointments, and access emergency services 24/7.">
+  <meta property="og:title" content="Veritas Institute Medical Hospital">
+  <meta property="og:description" content="Expert care, grounded in medical education. Academic medical centre in Batangas.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/logo-vimh-transparent.svg">
+  <link rel="icon" href="assets/logo-vimh-transparent.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <div class="utility-bar">
+    <div class="container utility-bar__inner">
+      <a class="utility-bar__emergency" href="tel:+63430000000">
+        <svg class="icon icon--sm" aria-hidden="true"><use href="#icon-phone"></use></svg>
+        Emergency 24/7: (043) 000-0000
+      </a>
+      <a class="utility-bar__portal" href="portal.html">Patient Portal</a>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="assets/logo-vimh-transparent.svg" width="40" height="40" alt="">
+        <span class="brand__wordmark">Veritas Institute Medical Hospital</span>
+        <span class="brand__short">VIMH</span>
+      </a>
+
+      <nav class="nav-primary" aria-label="Primary">
+        <ul class="nav-primary__list">
+          <li><a class="nav-primary__link" href="index.html" aria-current="page">Home</a></li>
+          <li><a class="nav-primary__link" href="about.html">About</a></li>
+          <li><a class="nav-primary__link" href="services.html">Services &amp; Specialists</a></li>
+          <li><a class="nav-primary__link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="icon-btn header-search-toggle" aria-expanded="false" aria-controls="header-search" aria-label="Open search">
+          <svg class="icon" aria-hidden="true"><use href="#icon-search"></use></svg>
+        </button>
+        <a class="btn btn--primary" href="book.html">Book an Appointment</a>
+        <button type="button" class="icon-btn menu-toggle" aria-expanded="false" aria-controls="nav-drawer" aria-label="Open menu">
+          <svg class="icon" aria-hidden="true"><use href="#icon-menu"></use></svg>
+        </button>
+      </div>
+    </div>
+    <div id="header-search" class="header-search" hidden>
+      <form class="header-search__form" action="services.html" method="get" role="search">
+        <label class="sr-only" for="header-q">Search doctors, specialties or services</label>
+        <input class="input" type="search" id="header-q" name="q" placeholder="Search doctors, specialties or services" autocomplete="off">
+        <button class="btn btn--primary" type="submit">Search</button>
+      </form>
+    </div>
+  </header>
+
+  <div id="nav-drawer" class="nav-drawer" hidden>
+    <div class="nav-drawer__backdrop" data-close-drawer></div>
+    <div class="nav-drawer__panel" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+      <div class="nav-drawer__header">
+        <span class="brand__short">VIMH</span>
+        <button type="button" class="icon-btn" data-close-drawer aria-label="Close menu">
+          <svg class="icon" aria-hidden="true"><use href="#icon-close"></use></svg>
+        </button>
+      </div>
+      <nav aria-label="Mobile">
+        <ul class="nav-drawer__list">
+          <li><a class="nav-drawer__link" href="index.html" aria-current="page">Home</a></li>
+          <li><a class="nav-drawer__link" href="about.html">About</a></li>
+          <li><a class="nav-drawer__link" href="services.html">Services &amp; Specialists</a></li>
+          <li><a class="nav-drawer__link" href="contact.html">Contact</a></li>
+          <li><a class="nav-drawer__link" href="portal.html">Patient Portal</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--primary btn--block" href="book.html">Book an Appointment</a>
+    </div>
+  </div>
+
+  <main id="main" class="page-main">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div>
+          <p class="hero__eyebrow">Academic medical centre · Batangas</p>
+          <h1>Expert care, grounded in medical education.</h1>
+          <p class="hero__copy">Veritas Institute Medical Hospital brings specialists, diagnostics and 24/7 emergency care together under one academic campus—so patients receive clear answers and coordinated treatment.</p>
+          <form class="search-bar" action="services.html" method="get" role="search">
+            <label class="sr-only" for="hero-search">Search doctors, specialties or services</label>
+            <input class="input" type="search" id="hero-search" name="q" placeholder="Search doctors, specialties or services" autocomplete="off">
+            <button class="btn btn--primary" type="submit">Search</button>
+          </form>
+          <div class="hero__chips" role="group" aria-label="Popular specialties">
+            <a class="chip" href="services.html#cardiology"><svg class="chip__check icon icon--sm" aria-hidden="true"><use href="#icon-check"></use></svg>Cardiology</a>
+            <a class="chip" href="services.html#pediatrics"><svg class="chip__check icon icon--sm" aria-hidden="true"><use href="#icon-check"></use></svg>Pediatrics</a>
+            <a class="chip" href="services.html#emergency"><svg class="chip__check icon icon--sm" aria-hidden="true"><use href="#icon-check"></use></svg>Emergency</a>
+            <a class="chip" href="services.html#diagnostics"><svg class="chip__check icon icon--sm" aria-hidden="true"><use href="#icon-check"></use></svg>Diagnostics</a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__image">
+            <img src="assets/img/hospital-building.jpg" width="900" height="1200" alt="Exterior of a modern multi-storey hospital building at dusk">
+          </div>
+          <div class="trust-card">
+            <div class="trust-card__icon" aria-hidden="true">
+              <svg class="icon"><use href="#icon-shield"></use></svg>
+            </div>
+            <p>Board-certified specialists · 24/7 emergency</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" aria-labelledby="quick-actions-heading">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__eyebrow">Start here</p>
+          <h2 id="quick-actions-heading">How can we help today?</h2>
+        </div>
+        <div class="grid grid-3">
+          <a class="card card--action" href="services.html#doctors">
+            <div class="card__icon" aria-hidden="true">
+              <svg class="icon icon--lg"><use href="#icon-stethoscope"></use></svg>
+            </div>
+            <h3 class="card__title">Find a Doctor</h3>
+            <p class="card__desc">Browse specialists by department, language and availability.</p>
+            <span class="card__cta">View directory <svg class="icon icon--sm" aria-hidden="true"><use href="#icon-arrow"></use></svg></span>
+          </a>
+          <a class="card card--action" href="book.html">
+            <div class="card__icon" aria-hidden="true">
+              <svg class="icon icon--lg"><use href="#icon-calendar"></use></svg>
+            </div>
+            <h3 class="card__title">Book an Appointment</h3>
+            <p class="card__desc">Choose a specialty, pick a time and confirm in a few steps.</p>
+            <span class="card__cta">Book now <svg class="icon icon--sm" aria-hidden="true"><use href="#icon-arrow"></use></svg></span>
+          </a>
+          <a class="card card--action" href="tel:+63430000000">
+            <div class="card__icon" aria-hidden="true">
+              <svg class="icon icon--lg"><use href="#icon-ambulance"></use></svg>
+            </div>
+            <h3 class="card__title">Emergency Care</h3>
+            <p class="card__desc">Our emergency department is open 24 hours, every day of the year.</p>
+            <span class="card__cta">Call (043) 000-0000 <svg class="icon icon--sm" aria-hidden="true"><use href="#icon-arrow"></use></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section class="section section--alt" aria-labelledby="why-heading">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__eyebrow">Why VIMH</p>
+          <h2 id="why-heading">Care you can trust</h2>
+        </div>
+        <div class="grid grid-4">
+          <article class="card card--stat">
+            <div class="card__icon" aria-hidden="true" style="width:48px;height:48px;border-radius:12px;background:var(--olive-100);color:var(--olive-700);display:grid;place-items:center;margin-bottom:16px">
+              <svg class="icon"><use href="#icon-clock"></use></svg>
+            </div>
+            <p class="stat-value">24/7</p>
+            <h3 class="card__title">Emergency</h3>
+            <p class="card__desc">Always-open emergency department with rapid triage.</p>
+          </article>
+          <article class="card card--stat">
+            <div class="card__icon" aria-hidden="true" style="width:48px;height:48px;border-radius:12px;background:var(--olive-100);color:var(--olive-700);display:grid;place-items:center;margin-bottom:16px">
+              <svg class="icon"><use href="#icon-award"></use></svg>
+            </div>
+            <p class="stat-value">Board</p>
+            <h3 class="card__title">Certified specialists</h3>
+            <p class="card__desc">Physicians credentialed in their clinical fields.</p>
+          </article>
+          <article class="card card--stat">
+            <div class="card__icon" aria-hidden="true" style="width:48px;height:48px;border-radius:12px;background:var(--olive-100);color:var(--olive-700);display:grid;place-items:center;margin-bottom:16px">
+              <svg class="icon"><use href="#icon-activity"></use></svg>
+            </div>
+            <p class="stat-value">Modern</p>
+            <h3 class="card__title">Diagnostics</h3>
+            <p class="card__desc">Imaging and laboratory services on the same campus.</p>
+          </article>
+          <article class="card card--stat">
+            <div class="card__icon" aria-hidden="true" style="width:48px;height:48px;border-radius:12px;background:var(--olive-100);color:var(--olive-700);display:grid;place-items:center;margin-bottom:16px">
+              <svg class="icon"><use href="#icon-book"></use></svg>
+            </div>
+            <p class="stat-value">Teaching</p>
+            <h3 class="card__title">Hospital</h3>
+            <p class="card__desc">Academic practice that keeps care current and collaborative.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="doctors-heading">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__eyebrow">Our team</p>
+          <h2 id="doctors-heading">Featured doctors</h2>
+          <p>Meet a few of the clinicians available for outpatient appointments this week.</p>
+        </div>
+        <div class="carousel" tabindex="0" aria-label="Featured doctors carousel" data-carousel>
+          <article class="doctor-card card--interactive">
+            <a class="card__stretch" href="book.html?doctor=ana-reyes">Book Dr. Ana Reyes</a>
+            <div class="doctor-card__photo">
+              <img src="assets/img/doctor-ana.jpg" width="400" height="400" loading="lazy" alt="Portrait of Dr. Ana Reyes">
+            </div>
+            <div class="doctor-card__body">
+              <h3 class="card__title">Dr. Ana Reyes, MD</h3>
+              <p class="doctor-card__specialty">Cardiology</p>
+              <span class="card__cta" aria-hidden="true">Book <svg class="icon icon--sm"><use href="#icon-arrow"></use></svg></span>
+            </div>
+          </article>
+          <article class="doctor-card card--interactive">
+            <a class="card__stretch" href="book.html?doctor=miguel-santos">Book Dr. Miguel Santos</a>
+            <div class="doctor-card__photo">
+              <img src="assets/img/doctor-miguel.jpg" width="400" height="400" loading="lazy" alt="Portrait of Dr. Miguel Santos">
+            </div>
+            <div class="doctor-card__body">
+              <h3 class="card__title">Dr. Miguel Santos, MD</h3>
+              <p class="doctor-card__specialty">Internal Medicine</p>
+              <span class="card__cta" aria-hidden="true">Book <svg class="icon icon--sm"><use href="#icon-arrow"></use></svg></span>
+            </div>
+          </article>
+          <article class="doctor-card card--interactive">
+            <a class="card__stretch" href="book.html?doctor=sofia-cruz">Book Dr. Sofia Cruz</a>
+            <div class="doctor-card__photo">
+              <img src="assets/img/doctor-sofia.jpg" width="400" height="400" loading="lazy" alt="Portrait of Dr. Sofia Cruz">
+            </div>
+            <div class="doctor-card__body">
+              <h3 class="card__title">Dr. Sofia Cruz, MD</h3>
+              <p class="doctor-card__specialty">Pediatrics</p>
+              <span class="card__cta" aria-hidden="true">Book <svg class="icon icon--sm"><use href="#icon-arrow"></use></svg></span>
+            </div>
+          </article>
+          <article class="doctor-card card--interactive">
+            <a class="card__stretch" href="book.html?doctor=james-lim">Book Dr. James Lim</a>
+            <div class="doctor-card__photo">
+              <img src="assets/img/doctor-james.jpg" width="400" height="400" loading="lazy" alt="Portrait of Dr. James Lim">
+            </div>
+            <div class="doctor-card__body">
+              <h3 class="card__title">Dr. James Lim, MD</h3>
+              <p class="doctor-card__specialty">Orthopedics</p>
+              <span class="card__cta" aria-hidden="true">Book <svg class="icon icon--sm"><use href="#icon-arrow"></use></svg></span>
+            </div>
+          </article>
+        </div>
+        <div class="carousel-controls">
+          <button type="button" class="btn btn--secondary btn--sm carousel-btn" data-carousel-prev aria-label="Scroll doctors left">Previous</button>
+          <button type="button" class="btn btn--secondary btn--sm carousel-btn" data-carousel-next aria-label="Scroll doctors right">Next</button>
+          <a class="btn btn--text" href="services.html#doctors">View all specialists <svg class="icon icon--sm" aria-hidden="true"><use href="#icon-arrow"></use></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="section section--cream" aria-labelledby="portal-heading">
+      <div class="container portal-teaser">
+        <div class="portal-teaser__preview">
+          <img src="assets/img/portal-preview.jpg" width="1000" height="700" loading="lazy" alt="Clinician reviewing patient records on a laptop in a calm clinic setting">
+        </div>
+        <div>
+          <p class="section__eyebrow">Patient Portal</p>
+          <h2 id="portal-heading">Manage appointments and results online</h2>
+          <p>View upcoming visits, lab results and prescriptions from a secure patient dashboard—available after registration at the hospital.</p>
+          <div class="cluster">
+            <a class="btn btn--primary" href="portal.html">Preview the portal</a>
+            <a class="btn btn--secondary" href="contact.html">Ask about enrolment</a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <aside class="careers-strip" id="careers" aria-labelledby="careers-heading">
+      <div class="container careers-strip__inner">
+        <div>
+          <h2 id="careers-heading">Join our medical and academic team</h2>
+          <p style="margin:8px 0 0;color:var(--brown-500)">Clinical, teaching and support roles across the VIMH campus.</p>
+        </div>
+        <a class="btn btn--secondary" href="contact.html?topic=careers">Explore careers</a>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <img class="site-footer__deco" src="assets/logo-vimh-reversed.svg" width="220" height="220" alt="" aria-hidden="true">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div class="site-footer__brand">
+          <a class="brand" href="index.html">
+            <img class="brand__logo" src="assets/logo-vimh-reversed.svg" width="40" height="40" alt="">
+            <span class="brand__wordmark">Veritas Institute Medical Hospital</span>
+          </a>
+          <p>An academic medical centre committed to compassionate care, clinical excellence and medical education in Batangas.</p>
+        </div>
+        <div>
+          <h3>Hospital</h3>
+          <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="services.html">Services &amp; specialists</a></li>
+            <li><a href="about.html#locations">Locations</a></li>
+            <li><a href="about.html#leadership">Leadership</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Patients</h3>
+          <ul>
+            <li><a href="book.html">Book an appointment</a></li>
+            <li><a href="portal.html">Patient portal</a></li>
+            <li><a href="services.html#doctors">Find a doctor</a></li>
+            <li><a href="contact.html#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Careers</h3>
+          <ul>
+            <li><a href="contact.html?topic=careers">Open roles</a></li>
+            <li><a href="about.html">Teaching hospital life</a></li>
+            <li><a href="contact.html">Medical education</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="tel:+63430000000">(043) 000-0000</a></li>
+            <li><a href="mailto:info@vimh.example">info@vimh.example</a></li>
+            <li><address>Sample: National Highway, Batangas City, Batangas</address></li>
+            <li>Mon–Sun · Emergency 24/7</li>
+          </ul>
+          <div class="social-links" aria-label="Social media">
+            <a href="#" aria-label="Facebook"><svg class="icon icon--sm" aria-hidden="true"><use href="#icon-facebook"></use></svg></a>
+            <a href="#" aria-label="Instagram"><svg class="icon icon--sm" aria-hidden="true"><use href="#icon-instagram"></use></svg></a>
+            <a href="#" aria-label="LinkedIn"><svg class="icon icon--sm" aria-hidden="true"><use href="#icon-linkedin"></use></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="site-footer__meta">
+        <div class="site-footer__legal">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+          <span>© <span data-year>2026</span> Veritas Institute Medical Hospital. Demo site — names and data are fictional.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="icon-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="icon-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
+    <symbol id="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16M4 12h16M4 19h16"/></symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    <symbol id="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="icon-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
+    <symbol id="icon-stethoscope" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 2v2M7 2v2"/><path d="M5 4h8a2 2 0 0 1 2 2v2a6 6 0 0 1-6 6H7a6 6 0 0 1-6-6V6a2 2 0 0 1 2-2"/><path d="M9 14v2a4 4 0 0 0 8 0v-2"/><circle cx="19" cy="12" r="2"/></symbol>
+    <symbol id="icon-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+    <symbol id="icon-ambulance" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 10H6"/><path d="M8 8v4"/><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.28a1 1 0 0 0-.24-.68l-2.12-2.55A1 1 0 0 0 19 10h-3v8h1"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></symbol>
+    <symbol id="icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="icon-award" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></symbol>
+    <symbol id="icon-activity" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></symbol>
+    <symbol id="icon-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></symbol>
+    <symbol id="icon-facebook" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    <symbol id="icon-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><path d="M17.5 6.5h.01"/></symbol>
+    <symbol id="icon-linkedin" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+  </svg>
+
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-relevant="additions"></div>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

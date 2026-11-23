@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Patient Dashboard | Veritas Institute Medical Hospital</title>
+  <meta name="description" content="Sample patient dashboard for Veritas Institute Medical Hospital, with vitals and an upcoming appointment.">
+  <link rel="icon" href="assets/logo-vimh-transparent.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+
+  <header class="header">
+    <div class="wrap header-inner">
+      <a class="logo" href="index.html">
+        <img src="assets/logo-vimh-transparent.svg" width="40" height="40" alt="">
+        <span class="name-short">VIMH</span>
+        <span class="name-full">Veritas Institute Medical Hospital</span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services &amp; Specialists</a>
+        <a href="contact.html">Contact</a>
+        <a href="dashboard.html" aria-current="page">Patient Dashboard</a>
+        <a class="btn" href="book.html">Book an Appointment</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="wrap dash">
+        <aside class="side" aria-label="Patient menu">
+          <a href="#overview" aria-current="page">Overview</a>
+          <a href="#appointments">Appointments</a>
+          <a href="#vitals">Vitals</a>
+          <a href="#heart-rate">Heart rate</a>
+        </aside>
+
+        <div>
+          <h1 id="overview">Good evening, Maria</h1>
+          <p>Here is a sample summary for Maria Santos. None of these numbers are real.</p>
+
+          <div class="grid-3" id="vitals">
+            <article class="card pad stat">
+              <h2>Heart rate</h2>
+              <strong>72</strong>
+              <p>beats per minute</p>
+            </article>
+            <article class="card pad stat">
+              <h2>Weight</h2>
+              <strong>62</strong>
+              <p>kilograms</p>
+            </article>
+            <article class="card pad stat">
+              <h2>Sleep</h2>
+              <strong>7.5</strong>
+              <p>hours last night</p>
+            </article>
+          </div>
+
+          <article class="card pad" id="appointments" style="margin-top: 24px">
+            <h2>Upcoming appointment</h2>
+            <p><strong>Cardiology follow-up with Dr. Ana Reyes</strong></p>
+            <p>Tuesday, 25 November 2026 · 10:30 AM<br>Outpatient Clinic B, Main Campus</p>
+            <a class="btn" href="book.html">Book another visit</a>
+          </article>
+
+          <section class="chart" id="heart-rate" style="margin-top: 24px">
+            <h2>Heart rate trend</h2>
+            <div class="bars" role="img" aria-label="Heart rate from June to November was 74, 70, 78, 72, 68 and 72 beats per minute.">
+              <div><b>74</b><span style="height: 140px"></span><small>Jun</small></div>
+              <div><b>70</b><span style="height: 110px"></span><small>Jul</small></div>
+              <div><b>78</b><span style="height: 160px"></span><small>Aug</small></div>
+              <div><b>72</b><span style="height: 125px"></span><small>Sep</small></div>
+              <div><b>68</b><span style="height: 90px"></span><small>Oct</small></div>
+              <div><b>72</b><span style="height: 125px"></span><small>Nov</small></div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-grid grid-3">
+      <div>
+        <a class="logo" href="index.html">
+          <img src="assets/logo-vimh-reversed.svg" width="40" height="40" alt="">
+          <span>Veritas Institute Medical Hospital</span>
+        </a>
+        <p>An academic medical centre in Batangas.</p>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <p>National Highway, Batangas City, Batangas 4200</p>
+        <p>Emergency 24/7<br><a href="tel:+63430000000">(043) 000-0000</a></p>
+        <p><a href="mailto:info@vimh.example">info@vimh.example</a></p>
+      </div>
+      <div>
+        <h2>Pages</h2>
+        <p><a href="about.html">About</a></p>
+        <p><a href="services.html">Services &amp; Specialists</a></p>
+        <p><a href="book.html">Book an Appointment</a></p>
+        <p><a href="contact.html">Contact</a></p>
+        <p><a href="dashboard.html">Patient Dashboard</a></p>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <p>© 2026 Veritas Institute Medical Hospital. Demo site — names and data are fictional.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
